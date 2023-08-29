@@ -1,0 +1,84 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gold;
+}
+p {
+    font-size: 20px;
+}
+
+.container {
+    background-color:#a19c9c;
+    width: 60%;
+    border-radius: 5px;
+   
+}
+
+.skill {
+    background-color: rgb(147, 98, 211);
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.html {
+    width: 80%;
+}
+
+.php {
+    width: 60%;
+}
+.css{
+  width: 75%;
+}
+.javascript{
+  width: 90%;
+}
+li a{
+    text-decoration:none
+    
+    
+    
+}
+ul  {
+    margin:0;
+    background-color:#e9dada;
+
+    text-align: right;
+    
+}
+li{
+    display: inline-block;
+    margin-inline: 2rem;
+    font-size: large;
+    
+   
+}
+.right{
+    display: flex ;
+   
+   
+
+}
+.s{
+    width: 75ch;
+}
+.left{
+    width: 75ch;
+}
+h2{
+    text-decoration:underline solid blue;
+}
+li a:hover ,li a:focus{
+    text-decoration:none ;
+}
+.a{
+    display: flex;
+    justify-content: space-between;
+}
+
+
