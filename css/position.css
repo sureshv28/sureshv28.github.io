@@ -1,0 +1,34 @@
+section{
+    height: 100vh;
+}
+.s{
+    background-color: aqua;
+}
+.u{
+    background-color: rgb(124, 122, 120);
+}
+.r{
+    background-color: rgb(170, 136, 84);
+}
+.e{
+background-color: brown;
+}
+header ,footer{
+    font-size: 4rem;
+    padding: 1rem;
+    text-align: center;
+    
+}
+header{
+    position:sticky;
+    top: 0;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color: chartreuse;
+   
+}
+a{
+    text-decoration: none;
+}
