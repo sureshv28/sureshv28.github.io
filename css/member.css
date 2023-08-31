@@ -10,7 +10,7 @@ body{
     width: 100vw;
     height: 100vh;
     margin: 0px;
-    background-color: rgb(114, 114, 103);
+    background-color:lightsalmon;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -99,5 +99,6 @@ h1{
     align-items: center;
 
 }
+
 
 
