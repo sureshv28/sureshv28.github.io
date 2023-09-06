@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.icon{
+    padding: 0.5rem;
+    display:flex;
+   justify-content: space-between;
+   background: linear-gradient(90deg, rgb(255, 23, 6) 0%, rgb(255, 123, 0) 89%);
+   color: white;
+   align-items: center;
+   
+}
+
+li{
+    display: inline-block;
+    margin-inline: 0.5rem;  
+}
+.button{
+    background-color:white;
+    color: black;
+    width: 200px;
+    height: 20px;
+    border-radius: 20px; 
+    border: none;
+   padding: 0.5rem;
+     
+}
+.photos{
+    
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    
+}
+.chart{
+   
+    padding: 1.5rem;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+.shop{
+    
+    background: linear-gradient(90deg,rgba(0,56,255,1)0%,  rgba(7,221,255,1) 100%);  
+}
+.wallet{
+    background: linear-gradient(90deg, rgba(255,6,145,1) 0%, rgba(255,149,0,1) 100%);
+  
+}
+.percentage{
+    background: linear-gradient(90deg, rgba(182,255,6,1) 0%, rgba(0,255,132,1) 100%);
+ 
+}
+.user{
+    background: linear-gradient(90deg, rgba(255,181,6,1) 0%, rgba(255,119,0,1) 100%);  
+}
+.image{
+    
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 24px 24px;
+}
+.images{
+    width: 100%;
+}
+.box{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width:21%; 
+    gap: 1rem;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+.menu{
+    cursor: pointer;
+}
+body{
+    background-color: #ecf0f9;
+}
