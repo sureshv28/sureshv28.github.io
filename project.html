@@ -11,58 +11,61 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    
+
     <link rel="stylesheet" href="css/project.css" />
-    
   </head>
   <body>
-    
-    <div class="main">
-      <nav class="menu0">
+    <nav class="menu0">
       <div class="logo">folio <b class="dot">.</b></div>
-      
-        
-        
-        <ul class="menu">
-          <li><a href="#">Home</a></li>
-          <li><a href="#About">About</a></li>
-          <li><a href="#Skills">Skills</a></li>
-          <li><a href="#Contect">Contect</a></li>
-          
+      <ul class="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Languages">Languages <i class="fa-solid fa-caret-down"></i></a>
+        <ul class="dropdown">
+           <li><a href="#">HTML</a></li>
+           <li><a href="#">CSS</a></li>
+           <li><a href="#">JavaScript</a></li>
+           <li><a href="#">PHP</a></li>
         </ul>
-        <div class="links">
+      </li>
+        <li><a href="#Contect">Contect</a></li>
+      </ul>
+      <div class="links">
+        <div class="icon">
           <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-          <a href="#"><i class="fa-brands fa-facebook"></i></a>
-          <a href="#"><i class="fa-brands fa-instagram"></i></a>
-          <a href="#"><i class="fa-solid fa-bars"></i></a>
-
         </div>
-      </nav>
+        <div class="icon">
+          <a href="https://www.facebook.com/profile.php?id=61550779691184"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+        </div>
+        <div class="icon">
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      </div>
+    </nav>
+    <div class="main">
+      
       <div class="wrapper">
         <div class="cols cols0">
           <span class="topline">Hello</span>
-          <h1>I'm <span class="multitext">Web Developer</span></h1>
-          <p>The float property allows you to control where an element is positioned
-            in a page. There are three different values for this property that you
-            can use: left, right, and center.</p>
-            <div class="btns">
-              <button>Download</button>
-              <button>Here Me</button>
-              
-              
-            </div>
+          <span>I'm <span class="multitext">Web Developer</span></span>
+          <p>
+            The float property allows you to control where an element is
+            positioned in a page. There are three different values for this
+            property that you can use: left, right, and center.
+          </p>
+          <div class="btns">
+            <button class="button">Download</button>
+            <button class="button">Here Me</button>
+          </div>
         </div>
         <div class="cols cols1">
           <div class="imgbox">
-            
-            <img src="suresh.jpg" >
-
+            <img src="suresh.jpg" />
           </div>
         </div>
-
       </div>
-    
-    
     </div>
   </body>
 </html>

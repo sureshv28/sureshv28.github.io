@@ -6,26 +6,60 @@
 }
 body{
     overflow: hidden;
+    background-color:lightpink;
+
+}
+ul li ul.dropdown li{
+    display: block;
+}
+ul li ul.dropdown{
+    width: 120%;
+    background-color: lightsalmon;
+    color: black;
+    position:absolute;
     
+    display: none;
 }
 
-.main{
-    
-    background-image: calc();
-    width: 100%;
-    min-height: 100vh;
-    background-color:lightpink;
+ul li:hover ul.dropdown{
+    display:block;
+}
+
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 110%;
+    background-color: black;
+    color: #ffffff;
+    padding: 7px;
+    border-radius:20px ;
+    font-size: large;
+    letter-spacing: 3px;
+}
+.login:hover{
+    background-color: blue;
 }
 .menu0{ 
+    padding: 1rem;
     background-color:lightsalmon;
     color: white;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
     height: 80px;
     line-height: 80px;
     z-index: 111;
+    padding: 0 10%;
     
+}
+.links{
+    padding: 2rem 0 2rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo{
@@ -48,7 +82,7 @@ b{
 }
 .menu{
      display: flex;
-
+    padding: 0;
 }
 .menu li{
     list-style: none;
@@ -68,15 +102,20 @@ b{
     
 }
 .menu li:hover{
-    transform: scale(1.5);
+    transform: scale(1.2);
     transition: transform 2s;
     ;
 }
 .links a{
-    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 20px;
     color: #3d535f;
-    margin: 25px 10px;
+    margin: 0 10px ;
 }
+
 .wrapper{
     display: flex;
     width: 100%;
@@ -103,11 +142,12 @@ b{
     bottom: 10px;
     background-color: #7f00ff;
 }
-h1{
+span{
     display: block;
-    font-size: 5em;
+    font-size: 2.5rem;
     font-weight: 900;
     color: #3d535f;
+    
 }
 .multitext{
     color: #cf0aae;
@@ -120,7 +160,7 @@ p{
     color: #3d535f;
 }
 
-button{
+.button{
   
     width: 40%; 
     cursor: pointer;
@@ -132,20 +172,28 @@ button{
     margin: 10px ;
     box-shadow: 0 15px 10px rgba(0,0,0,0.6);
 }
-button:hover{
+.button:hover{
     background-color: blue;
 }
+.cols 
+.cols1{
+display: flex;
+justify-content: center;
+align-items: center;
+}
 .imgbox{
-    position: relative;
+    position:relative;
     width: 100%;
     height: 100%;
+    
 }
-.imgbox img{ 
+.imgbox img{
+    
     position: relative;
     height: 100%;
     width:50%;
-    top: -100px;
-    left: 200px;
+    top: -50px;
+    left: 260px;
     border-radius: 100%;
     box-shadow: 0 25px 50px rgba(0.5,1,1.5,2);
     animation: animateUser 4s linear infinite;
