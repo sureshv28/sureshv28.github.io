@@ -6,23 +6,23 @@
 }
 body{
     overflow: hidden;
-    background-color:lightpink;
+    background-color:white;
 
 }
+
 ul li ul.dropdown li{
     display: block;
 }
 ul li ul.dropdown{
     width: 120%;
-    background-color: lightsalmon;
+    background-color:white;
     color: black;
     position:absolute;
-    
     display: none;
 }
 
 ul li:hover ul.dropdown{
-    display:block;
+    display:flex;
 }
 
 
@@ -43,8 +43,8 @@ ul li:hover ul.dropdown{
 }
 .menu0{ 
     padding: 1rem;
-    background-color:lightsalmon;
-    color: white;
+    background-color:white;
+    color: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -101,11 +101,7 @@ b{
     
     
 }
-.menu li:hover{
-    transform: scale(1.2);
-    transition: transform 2s;
-    ;
-}
+
 .links a{
     display: flex;
     justify-content: center;
@@ -125,14 +121,49 @@ b{
     padding:  0 10%;
     overflow: hidden;
 }
-
-
+.wrapper::before{
+    position: absolute;
+    content: '';
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    left: -5%;
+    top: 50%;
+    background: linear-gradient(45deg, rgba(226,0,145,1) 31%, rgba(255,177,245,1) 100%);
+    animation: object1 6s linear infinite;
+}
+.wrapper::after{
+    position: absolute;
+    content: '';
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    left: 35%;
+    top: 14%;
+    background: linear-gradient(45deg, rgba(226,0,145,1) 31%, rgba(255,177,245,1) 100%);
+    animation: object2 6s linear infinite;
+}
+@keyframes object1{
+    50%{
+        left: -13%;
+        top: 41%;
+    }
+}
+@keyframes object2{
+    50%{
+        left: 35%;
+        top: 10%;
+    }
+}
+.cols0{
+    z-index: 5;
+}
 .topline{
     display: block;
     position: relative;
-    font-size: 35px;
+    font-size: 1.3em;
     letter-spacing: 5px;
-    color: #3d535f;
+    color: black;
 }
 .topline::after{
     position: absolute;
@@ -143,21 +174,26 @@ b{
     background-color: #7f00ff;
 }
 span{
-    display: block;
-    font-size: 2.5rem;
+    display: flex;
+    gap: 3rem;
+    font-size: 4rem; 
     font-weight: 900;
-    color: #3d535f;
+    color: black;
+    
+   
     
 }
 .multitext{
-    color: #cf0aae;
+    color:rgb(160, 9, 160);
     text-transform: capitalize;
+    
 }
 p{
+    
     display: block;
-    width: 90%;
+    font-weight: 600;
     font-size: 1.3em;
-    color: #3d535f;
+    color: black;
 }
 
 .button{
@@ -167,13 +203,13 @@ p{
     font-size: 25px;
     color: #ffffff;
     border-radius: 30px;
-    background-color:black;
+    background-color:blueviolet;
     padding: 7px ;
     margin: 10px ;
     box-shadow: 0 15px 10px rgba(0,0,0,0.6);
 }
 .button:hover{
-    background-color: blue;
+    background-color:lightcoral;
 }
 .cols 
 .cols1{
@@ -187,6 +223,7 @@ align-items: center;
     height: 100%;
     
 }
+
 .imgbox img{
     
     position: relative;
